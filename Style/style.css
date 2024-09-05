@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: poppins;
+}
+.Nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eecccc;
+    height: 108px;
+    align-items: center;
+    padding: 0px 140px;
+}
+.logo{
+   width: 151px;
+   height: 32px;
+}
+nav ul li{
+    list-style: none;
+    color: #7f7f7f;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    
+}
+.icon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.signin{
+    background-color: #8fa57c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.hero-container{
+   background-image: url('/Images/pexels-photo-349610.jpeg');
+    height: 500px;
+   background-position: center;
+    background-size: cover;
+    padding: 12px 140px;
+    
+}
+.left-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+.How-it-works-container{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.what-we-serve{
+    margin: 0 200px;
+    text-align: center;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.serve-image{
+    width: 180px;
+    height: 180px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.images{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+   
+}
+.border{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #e6e6e6;
+}
+.fonts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.customer-container{
+
+}
+.down-image{
+    position: relative;
+    top: -38px;
+    display: flex;
+}
+.food-image2{
+    position: relative;
+    left: -25px;
+}
+.review-area-container{
+    background-color: #f1f1f1;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+.review-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.customer-container{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    overflow-x: hidden;
+}
+.review-area{
+    display: flex;
+}
+.review-area>div{
+    margin-left: 20px;
+}
+.last-img{
+    background-image: url('/Images/10.png');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.signup{
+    background-color: #8fa57c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+.new{
+  text-align: center;
+ 
+}
+.background-image{
+    background-image: url('/Images/bg-image.png');  
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    padding: 100px 140px;
+    padding-bottom: 50px;
+}
